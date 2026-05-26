@@ -8,7 +8,7 @@ AWS_ACCESS_ID = os.getenv("AWS_ACCESS_ID")
 AWS_SECRET_KEY = os.getenv("AWS_SECRET_KEY")
 app = FastAPI()
 S3_BUCKET = "excelsheetbucketmuditrajsade"
-S3_REGION = "ap-south-1"  # e.g. us-east-1
+S3_REGION = "ap-south-1"
 
 s3 = boto3.client(
     "s3",
