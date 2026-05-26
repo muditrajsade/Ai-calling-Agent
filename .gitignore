@@ -1,5 +1,5 @@
-.venv
-.python-version
+Mainagent/.venv/
+Mainagent/.python-version/
 __pycache__/
 voice ai agent calling dashboard/.venv/
 voice ai agent calling dashboard/.env

@@ -12,3 +12,8 @@ dependencies = [
     "python-multipart>=0.0.29",
     "uvicorn>=0.48.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "voice ai agent calling dashboard",
+]
