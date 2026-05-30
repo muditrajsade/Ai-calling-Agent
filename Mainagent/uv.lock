@@ -11,6 +11,8 @@ dependencies = [
     { name = "dotenv" },
     { name = "fastapi" },
     { name = "livekit-agents", extra = ["deepgram", "openai", "silero"] },
+    { name = "livekit-api" },
+    { name = "livekit-plugins-silero" },
     { name = "python-multipart" },
     { name = "uvicorn" },
 ]
@@ -21,6 +23,8 @@ requires-dist = [
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "fastapi", specifier = ">=0.136.3" },
     { name = "livekit-agents", extras = ["deepgram", "openai", "silero"], specifier = ">=1.5.12" },
+    { name = "livekit-api", specifier = ">=1.1.0" },
+    { name = "livekit-plugins-silero", specifier = ">=1.5.12" },
     { name = "python-multipart", specifier = ">=0.0.29" },
     { name = "uvicorn", specifier = ">=0.48.0" },
 ]
